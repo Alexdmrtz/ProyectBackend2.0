@@ -25,5 +25,23 @@
     "thumbnail": "imagen-generico",
     "code": "123abc",
     "stock": 50
+  },
+  {
+    "id": 4,
+    "title": "Nuevo producto 1",
+    "description": "Este es un nuevo producto de prueba 1",
+    "price": 300,
+    "thumbnail": "imagen-nuevo-1",
+    "code": "new123",
+    "stock": 15
+  },
+  {
+    "id": 5,
+    "title": "Nuevo producto 2",
+    "description": "Este es un nuevo producto de prueba 2",
+    "price": 200,
+    "thumbnail": "imagen-nuevo-2",
+    "code": "new456",
+    "stock": 25
   }
 ]
