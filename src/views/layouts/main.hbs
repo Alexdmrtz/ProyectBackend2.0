@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+<head>
+    <title>Lista de Productos</title>
+</head>
+<body>
+    <div>
+        <h1 class="text-2xl font-bold my-3 dark:text-white">PRODUCTOS</h1>
+        <section class="grid grid-flow-col auto-cols-max gap-5 place-content-around">
+            <!-- La lista de productos se actualizará dinámicamente aquí -->
+        </section>
+    </div>
+
+    <div class="w-1/2 ml-8">
+        <form id="form">
+            <!-- Formulario para agregar productos -->
+        </form>
+    </div>
+
+    <div>
+        <h1 class="text-2xl font-bold my-3 dark:text-white">PRODUCTOS DESDE WS</h1>
+        <section id="productList" class="grid grid-cols-3 place-content-between">
+            <!-- La lista de productos actualizados por WS se mostrará aquí -->
+        </section>
+    </div>
+
+    <!-- Incluir Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Incluir tu archivo JavaScript para manejar las interacciones del cliente -->
+    <script src="index.js"></script>
+</body>
+</html>

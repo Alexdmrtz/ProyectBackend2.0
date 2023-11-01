@@ -1,0 +1,26 @@
+<div class="table-responsive container bg-dark my-5">
+    <h2 class="text-center text-white text-uppercase pt-2">Lista de Productos</h2>
+    <hr>
+    <table class="table table-bordered table-striped table-hover text-center">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Code</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each products}}
+                <tr>
+                    <td class="text-start">{{this.productName}}</td>
+                    <td class="text-start">{{this.description}}</td>
+                    <td>{{this.price}}</td>
+                    <td>{{this.code}}</td>
+                    <td>{{this.stock}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
